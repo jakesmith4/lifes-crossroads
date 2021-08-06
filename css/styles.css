@@ -324,7 +324,7 @@ Hero
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/herocross1.jpg) no-repeat;
+    url("../images/herocross1-min.jpg") no-repeat;
   background-position: 50% 55%;
   background-size: cover;
   display: flex;
@@ -682,6 +682,17 @@ Gallery
   opacity: 0;
   cursor: pointer;
   transition: var(--transition);
+  text-align: center;
+}
+
+.gallery-box {
+  background: var(--clr-primary-3);
+  padding: 0.375rem 0.75rem;
+  opacity: 0.7;
+}
+
+.gallery-icon h3 {
+  background: var(--clr-primary-3);
 }
 
 .gallery-img {
@@ -743,12 +754,15 @@ Footer
   margin-right: 1rem;
   letter-spacing: var(--spacing);
   transition: var(--transition);
+  padding: 0.075rem 0.5rem;
+  margin-bottom: 0.3rem;
+  display: inline-block;
 }
 
 .footer-link:hover {
   color: var(--clr-primary-1);
   background: var(--clr-grey-10);
-  padding: 0.03rem;
+  /* padding: 0.03rem; */
   border-radius: 5px;
 }
 
@@ -781,7 +795,7 @@ Patriotic Page
 .patriotic {
   min-height: 72vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/patriotichero.jpg) no-repeat;
+    url("../images/patriotichero-min.jpg") no-repeat;
   background-position: 50% 55%;
   background-size: cover;
   display: flex;
@@ -801,7 +815,7 @@ Angel Page
 .angel {
   min-height: 72vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/angelhero.jpg) no-repeat;
+    url("../images/angelhero-min.jpg") no-repeat;
   background-position: 50% 0%;
   background-size: cover;
   display: flex;
@@ -823,7 +837,7 @@ Cowboy Page
 .cowboy {
   min-height: 72vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/cowboyhero.jpg) no-repeat;
+    url("../images/cowboyhero-min.jpg") no-repeat;
   background-position: 50% 55%;
   background-size: cover;
   display: flex;
@@ -839,7 +853,7 @@ Animal Page
 .animal {
   min-height: 72vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/wolfhero.jpg) no-repeat;
+    url("../images/wolfhero-min.jpg") no-repeat;
   background-position: 50% 60%;
   background-size: cover;
   display: flex;
@@ -855,7 +869,7 @@ All Crosses Page
 .all-crosses {
   min-height: 72vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/allcrosseshero.jpg) no-repeat;
+    url("../images/allcrosseshero-min.jpg") no-repeat;
   background-position: 50% 60%;
   background-size: cover;
   display: flex;
