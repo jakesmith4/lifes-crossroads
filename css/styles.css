@@ -232,7 +232,6 @@ Navbar
 
 .nav-toggle:hover {
   transform: scale(1.3);
-  background: var(--clr-primary-1);
   border-radius: 5px;
 }
 
